@@ -1,0 +1,192 @@
+
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1"> <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> <meta name="apple-mobile-web-app-capable" content="yes"> <meta name="apple-mobile-web-app-status-bar-style" content="black" /> <meta name="format-detection" content="telephone=no"> <meta name="renderer" content="webkit"> <meta name="author" content="leslie"> <title>重庆聚祥科技有限公司的搜索结果 - 企查查</title> <meta name="keywords" content="企查查,企业查询,公司查询,工商查询,企业信用信息查询系统,企业工商信息查询平台,企业财务信息查询,企业信用评价查询,企业纠纷查询,企业现金流查询,企业股权查询,企业负债查询,企业资产查询,企业财报查询,企业失信信息查询,启信宝,天眼查,天眼通"> <meta name="description" content="企查查信息来自国家企业信用信息公示系统，提供企业信息查询,工商查询,企业信用评价查询，企业纠纷查询，企业现金流查询，企业股权查询，企业负债查询，企业资产查询，企业财报查询,公司查询等相关信息查询；帮您快速了解企业信息,企业工商信息,企业信用信息等经营和人员投资状况！"> <link rel="icon" href="/material/theme/mobile/img/favicon.png"> <link rel="stylesheet" href="/material/theme/mobile/css/common.css?time=20180823" type="text/css" /> <script src="/material/theme/mobile/js/jquery.min.js"></script> <script src="/material/theme/mobile/js/vue.min.js"></script> <script src="/material/theme/mobile/js/jquery.scrollTo.js?t=1"></script> <script src="/material/theme/mobile/js/bootstrap.js"></script> <script src="/material/theme/mobile/js/custom.js?time=20180823"></script> <script type="text/javascript">
+        window.zhuge = window.zhuge || [];window.zhuge.methods = "_init debug identify track trackLink trackForm page".split(" ");
+        window.zhuge.factory = function(b) {return function() {var a = Array.prototype.slice.call(arguments);a.unshift(b);
+            window.zhuge.push(a);return window.zhuge;}};for (var i = 0; i < window.zhuge.methods.length; i++) {
+            var key = window.zhuge.methods[i];window.zhuge[key] = window.zhuge.factory(key);}window.zhuge.load = function(b, x) {
+            if (!document.getElementById("zhuge-js")) {var a = document.createElement("script");var verDate = new Date();
+                var verStr = verDate.getFullYear().toString()+ verDate.getMonth().toString() + verDate.getDate().toString();
+                a.type = "text/javascript";a.id = "zhuge-js";a.async = !0;a.src = (location.protocol == 'http:' ? "http://tongji.qichacha.com/zhuge.js" : 'https://tongji.qichacha.com/zhuge.js');
+                a.onerror = function(){window.zhuge.identify = window.zhuge.track = function(ename, props, callback){if(callback && Object.prototype.toString.call(callback) === '[object Function]')callback();};};
+                var c = document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a, c);window.zhuge._init(b, x)}};
+        window.zhuge.load('de1d1a35bfa24ce29bbf2c7eb17e6c4f',{
+            visualizer: true
+        });
+            </script> </head> <body> <style type="text/css">
+	.navtop{
+		width: 100%;
+		height: 52px;
+		background: #fff;
+	}
+	.navtop .logo{
+		width: 108.5px;
+		margin-left: 15px;
+		margin-top: 8px;
+		line-height: 20px;
+		float: left;
+	}
+	.navtop .logo>img{
+		width: 100%;
+	}
+	.navtop a{
+		float: right;
+		text-decoration: none;
+		line-height: 32px;
+		margin-top: 10px;
+	}
+	.navtop .userinf{
+		color: #128bed;
+		margin-right: 15px;
+	}
+	.navtop .app-btn{
+		width: 74px;
+		background: #128bed;
+		color: #fff;
+		border-radius: 4px;
+		text-align: center;
+		font-size: 14px;
+		margin-right: 15px;
+	}
+	.navtop .app-btn:after{
+		content: " ";
+		width: 1px;
+		background: #eee;
+		height: 24px;
+		position: absolute;
+		margin-left: 21px;
+		margin-top: 4px;
+	}
+</style> <script type="text/javascript">
+	var jcompanykey;
+	
+	var jpersonid;
+	var jpersonname;
+	var jindex;
+	var isWeixn;
+	var isAndroid;
+	var isiOS;
+	var timer;
+	
+	
+	
+	$(function(){
+		var u = navigator.userAgent, app = navigator.appVersion;
+		isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //android终端或者uc浏览器 
+		isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端   
+		var ua = navigator.userAgent.toLowerCase();  
+	    if(ua.match(/MicroMessenger/i)=="micromessenger") {  
+	        isWeixn = true;  
+	    } else {  
+	        isWeixn = false; 
+	    } 
+	    if(isAndroid){
+	    	var jumpUrl;
+			if(jcompanykey){
+				jumpUrl = 'qichacha://com.android.icredit/c?id='+jcompanykey;
+			}else if(jpersonid){
+				jumpUrl = 'qichacha://com.android.icredit/p?id='+jpersonid+'&name='+jpersonname;
+			}else{
+				jumpUrl = 'qichacha://com.android.icredit/';
+			}
+			$('#appBtn').attr('href',jumpUrl);
+	    } 
+	    firstJump();
+	})
+	function firstJump(){
+		if(jcompanykey){
+			if(isAndroid){
+				location.href='qichacha://com.android.icredit/c?id='+jcompanykey;
+			}else if(isiOS){
+				//location.href='http://mob.qichacha.com/app/company.html?back=1&unique='+jcompanykey;
+			}
+		}else if(jpersonid){
+			if(isAndroid){
+				location.href='qichacha://com.android.icredit/p?id='+jpersonid+'&name='+jpersonname;
+			}else if(isiOS){
+				//location.href='http://mob.qichacha.com/app/boss.html?back=1&personID='+jpersonid+'&name='+jpersonname;
+			}
+		}else if(jindex){
+			if(isAndroid){
+				location.href='qichacha://com.android.icredit/';
+			}else if(isiOS){
+				location.href='qichacha://';
+			}
+		}
+	}
+	
+	function openApp() {
+		if(isWeixn){
+			alert('请从浏览器中打开');
+		}else{
+			if(isiOS){
+				var jumpUrl;
+				if(jcompanykey){
+					jumpUrl = 'http://mob.qichacha.com/app/company.html?unique='+jcompanykey;
+				}else if(jpersonid){
+					jumpUrl = 'http://mob.qichacha.com/app/boss.html?personID='+jpersonid+'&name='+jpersonname;
+				}else{
+					jumpUrl = 'http://mob.qichacha.com/app';
+				}
+				window.location.href = jumpUrl;
+			}else if(isAndroid){
+				// var jumpUrl;
+				// if(jcompanykey){
+				// 	jumpUrl = 'qichacha://com.android.icredit/c?id='+jcompanykey;
+				// }else if(jpersonid){
+				// 	jumpUrl = 'qichacha://com.android.icredit/p?id='+jpersonid;
+				// }else{
+				// 	jumpUrl = 'qichacha://com.android.icredit/';
+				// }
+				// window.location.href = jumpUrl;
+				var hasApp = true , t = 1000;
+		        timer = setTimeout(function() {
+		        	if(!hasApp){
+		        		window.location.href = "http://www.qichacha.com/weixin?from=mobilewap";
+		        	}
+				}, 2000);
+				var t1 = Date.now();
+				setTimeout(function () {    //t的时间就是出发APP启动的时间，若APP启动了，再次返回页面时t2这行代码执行，hasApp即为true。反之若APP没有启动即为false
+			      var t2 = Date.now();
+			      hasApp = !(!t1 || t2 - t1 < t + 150);
+			    } , t);
+			}
+		}
+	}
+	$(document).on('visibilitychange webkitvisibilitychange', function() {
+	    var tag = document.hidden || document.webkitHidden;
+	    if (tag) {
+	        clearTimeout(timer);
+	    }
+	})
+	$(window).on('pagehide', function() {
+	    clearTimeout(timer);
+	})
+	
+</script> <div class="navtop clearfix"> <a class="logo" href="/"><img src="https://www.qichacha.com/material/theme/chacha/cms/v2/images/logo4.png"></a> <a rel="nofollow" class="userinf" href="/user_login">登录或注册</a> <a id="appBtn" class="app-btn" onclick="openApp()" href="javascript:;">打开APP</a> </div> <link rel="stylesheet" href="/material/theme/mobile/css/search_list.css?time=20180823" type="text/css" /> <div class="search-bar"> <a class="search-bar-back" href="javascript: history.back(0);"> <i></i> </a> <form action="/search"> <div class="search-bar-input" > <input type="text" value="重庆聚祥科技有限公司" class="searchkey" placeholder="请输入企业名称、人名、品牌、地址等" id="searchkey" name="key" required="required" autocomplete="off"> <input type="submit" class="searchbtn" value="搜索"/> <a href="javascript:;" onclick="clearSearch()" id="searchClear" class="search-clear"></a> </div> </form> </div> <div class="nodata"><img src="/material/theme/mobile/img/nodata.png"><p>小查未找到数据</p></div> <script type="text/javascript" src="/material/theme/mobile/js/search.js?time=20180823"></script> <div class="download-pop" id="download-pop"> <div class="mask"></div> <div class="download-dialog"> <div class="pop-bg"> <img src="/material/theme/mobile/img/pop_bg.png?t=2"> </div> <div class="ft"> <a href="http://www.qichacha.com/weixin_jump?from=mobilewap" class="text-primary dialog-btn">下载</a> </div> </div> </div> <div style="display:none;"> <script src="https://s4.cnzz.com/z_stat.php?id=1254842228&web_id=1254842228" language="JavaScript"></script> <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?3456bee468c83cc63fb5147f119f1075";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+	</script> </div> <script type="text/javascript">
+	function popDownload(){
+		$('#download-pop').show();
+		$('#download-pop .mask').click(function(){
+			$('#download-pop').hide();
+		})
+	}
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script> </body> </html>
