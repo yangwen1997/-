@@ -7,6 +7,7 @@ import hashlib
 import redis
 import time
 import string
+import pymongo
 import re
 from pprint import pprint
 from easydict import EasyDict
@@ -18,7 +19,19 @@ from common import get_proxy, get_log
 from urllib import parse
 from city_category import cpca
 
+
+#selenium库
+from selenium import webdriver
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver import ActionChains, FirefoxProfile
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+
 log = get_log()
+
+DATABASE = pymongo.MongoClient("mongodb://rwuser:48bb67d7996f327b@10.2.1.216:57017,10.2.1.217:57017,10.2.1.218:57017")
+KEYS_DB = DATABASE["qcc_com"]["企查查最新融资表"]
+
 
 class QCC(object):
     def __init__(self):
@@ -32,6 +45,57 @@ class QCC(object):
             "Upgrade-Insecure-Requests": "1",
         })
         self.proxy = None
+        self.count = 1
+
+    def chrome_driver(self):
+        """
+        实例化driver
+        :return:
+        """
+        # 启动延时时间
+        sleep_time = self.count*5
+        log.info('延时{}s启动...'.format(sleep_time))
+        # driver配置
+
+
+        # chrome_options.add_argument("--incognito")
+        # chrome_options.add_argument('--disable-extensions')
+        # chrome_options.add_argument('--disable-infobars')
+        # chrome_options.add_argument('-no-sandbox')
+        # chrome_options.add_argument('--profile-directory=Default')
+        # chrome_options.add_argument('--disable-plugins-discovery')
+        # chrome_options.add_argument("--proxy-server=http://{}".format(ip))
+        # chrome_options.add_argument("--proxy-server=127.0.0.1:8080")
+        # chrome_options.add_experimental_option('excludeSwitches', ['enable-automation'])
+
+        # 如果proxy_tag==1使用下面的配置方式，否则使用else下的配置方式
+
+
+        # 实例化driver
+        profile = FirefoxProfile()
+        ## 第二步：开启“手动设置代理”
+        profile.set_preference('network.proxy.type', 1)
+        ## 第三步：设置代理IP
+        profile.set_preference('network.proxy.http', '127.0.0.1')
+        ## 第四步：设置代理端口，注意端口是int类型，不是字符串
+        profile.set_preference('network.proxy.http_port', 8080)
+        ## 第五步：设置htpps协议也使用该代理
+        profile.set_preference('network.proxy.ssl', "127.0.0.1")
+        profile.set_preference('network.proxy.ssl_port', 8080)
+
+
+
+
+        # chrome_options.add_argument()
+        self.driver = webdriver.Firefox(
+            # chrome_options=chrome_options,
+            profile,
+            executable_path = "D:\software\FIREX_DEIVER\geckodriver.exe")
+            # executable_path = "D:\software\chromedrive\chromedriver.exe")
+        # 设置页面等待超时时间（由于代理网络有时延时较高，所以设置等待超时时间为40s）
+        self.driver.set_page_load_timeout(40)
+
+        return  self.driver
 
     # @staticmethod
     def get_pro(self):
@@ -121,6 +185,7 @@ class QCC(object):
         item.collectTime = int((time.time()) * 1000)
         item.companyUrl = company_info_urls
         item.webSource = "https://www.qichacha.com"
+        item.phone = "".join(etre.xpath('//*[contains(text(),"电话")]/following-sibling::*[1]/*/text()')).replace('\n','').strip(' ')
 
         # 股东信息
         holderInfo = []
@@ -968,98 +1033,201 @@ class QCC(object):
             "siteInfoCount":siteInfoCount
         }
 
+    def code(self,action):
+        """
+        验证滑块
+        :return:
+        """
+        swipe_button = self.borser.find_element_by_id("nc_1_n1z")
+        action.click_and_hold(swipe_button)  # perform用来执行ActionChains中存储的行为
+        action.move_by_offset(400, 0).perform()  # 移动滑块
+        time.sleep(2)
+
+    def czpf(self,action):
+        """
+        出现次数过多
+        :param action:
+        :return:
+        """
+        while 1:
+            try:
+                self.code(action)
+                self.borser.find_element_by_id("verify").click()
+                break
+            except:
+                pass
+
+    def smdl(self,action):
+        """
+        出现滑块
+        :param action:
+        :return:
+        """
+
+        self.borser.find_element_by_id("normalLogin").click()
+        while 1:
+            try:
+                self.borser.find_element_by_id("nameNormal").send_keys("17076937059")
+                self.borser.find_element_by_id("pwdNormal").send_keys("dgg123456")
+
+                self.code(action)
+                self.borser.find_elements_by_css_selector(".login-btn")[0].click()
+                break
+            except:
+                self.borser.refresh()
+
     def run(self):
         self.get_pro()
-        while 1:
+        count = KEYS_DB.find({"flag": 0}).count()
+        while count:
 
             try:
                 # company_key = "深圳市宏力捷电子有限公司"
-                company_key = "湖北三峡农村商业银行股份有限公司"
-                # company_key = "	阿里巴巴"
-                url = "https://www.qichacha.com/gongsi_mindlist?type=mind&searchKey={}&searchType=0".format(company_key)
+                # company_key = "湖北三峡农村商业银行股份有限公司"
+                # company_key = "阿里巴巴"
+                # url = "https://www.qichacha.com/gongsi_mindlist?type=mind&searchKey={}&searchType=0".format(company_key)
+                # self.f.session.headers.update({
+                #     "Referer":"https://www.qichacha.com/",
+                # })
+                # resp = self.f.get_req(url=url,proxies=self.proxy)
+                # if resp != False:
+                #     time.sleep(1)
+                #     respcookie = resp.headers["Set-Cookie"]
+                #     updated = int(time.time()*1000)
+                #     sid = int(time.time()*1000)
+                #     info = int(time.time()*1000)
+                #     datas = {
+                #         "sid": sid,
+                #         "updated": updated,
+                #         "info": info,
+                #         "superProperty": "{}",
+                #         "platform": "{}",
+                #         "utm": "{}",
+                #         "referrerDomain": "www.qichacha.com"
+                #     }
+                #     cookie =respcookie + "zg_de1d1a35bfa24ce29bbf2c7eb17e6c4f=" + str(datas)
+                #     self.f.session.headers.update({
+                #         "Cookie": cookie,
+                #         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+                #         "Connection": "keep-alive",
+                #         "Upgrade-Insecure-Requests": "1",
+                #     })
+                #
+                #     info_parmas, company_infos = self.search_parmas(company_key)
+                #     if info_parmas != [] and company_infos != []:
+                # 初始化driver
+                self.borser = self.chrome_driver()
+                # 最小化窗口
+                self.borser.minimize_window()
+                # 清除缓存
+                # self.borser.delete_all_cookies()
+
+                mogodata = KEYS_DB.find_one({"flag": 0})
+                # company_key = "佳木斯益隆煤矿机械制造有限公司"
+                company_key = mogodata["所属公司"]
+
+                self.borser.get(url="https://www.qichacha.com/user_login")
+                action = ActionChains(self.borser)
+                self.smdl(action)
+
+                time.sleep(4)
+
+
+                self.borser.find_element_by_css_selector('.close').click()
+                time.sleep(2)
+
+                self.borser.find_element_by_xpath("//*[@id='index']/preceding-sibling::input").send_keys(company_key)
+                self.borser.find_element_by_id("V3_Search_bt").click()
+
+
+
+                if "您的操作过于频繁，验证后再操作" in self.borser.page_source:
+                    self.czpf(action)
+
+                # elif "法人或股东" not in self.borser.page_source:
+                #
+                #     self.smdl(action)
+
+
+                element = WebDriverWait(self.borser, 5, 0.5).until(
+                    EC.presence_of_element_located((By.ID, "searchlist")))
+
+                cookie = self.borser.get_cookies()
+                cookies = ""
+                for items in cookie:
+                    jioncook = items["name"] + "=" + items["value"] + "; "
+                    cookies += jioncook
+                print(cookies)
+
+                #解析页面获取参数
+                HTMLTEXT = self.borser.page_source
+                # HTMLTEXT = resp.text
+                etre = HTML(HTMLTEXT)
+
+                info_parmas = etre.xpath('//*[contains(@id,"search-result")]//td[contains(@class,"imgtd")]/following-sibling::*[1]/a/@onclick')  # pc端
+                company_infos = etre.xpath('//*[contains(@id,"search-result")]//td[contains(@class,"imgtd")]/following-sibling::*[1]/a/@href')
+
                 self.f.session.headers.update({
-                    "Referer":"https://www.qichacha.com/",
+                    "Cookie": cookies,
                 })
-                resp = self.f.get_req(url=url,proxies=self.proxy)
-                if resp != False:
-                    time.sleep(1)
-                    respcookie = resp.headers["Set-Cookie"]
-                    updated = int(time.time()*1000)
-                    sid = int(time.time()*1000)
-                    info = int(time.time()*1000)
-                    datas = {
-                        "sid": sid,
-                        "updated": updated,
-                        "info": info,
-                        "superProperty": "{}",
-                        "platform": "{}",
-                        "utm": "{}",
-                        "referrerDomain": "www.qichacha.com"
-                    }
-                    cookie =respcookie + "zg_de1d1a35bfa24ce29bbf2c7eb17e6c4f=" + str(datas)
-                    self.f.session.headers.update({
-                        "Cookie": cookie,
-                        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
-                        "Connection": "keep-alive",
-                        "Upgrade-Insecure-Requests": "1",
-                    })
 
-                    info_parmas, company_infos = self.search_parmas(company_key)
-                    if info_parmas != [] and company_infos != []:
+                item = EasyDict()
+                for _ in range(len(info_parmas)):
+                    fol_result = (info_parmas[_].split("addSearchIndex")[1]).replace('(', '').replace(')', '').replace(
+                        "'", '').replace(";", '')
 
-                        item = EasyDict()
-                        for _ in range(len(info_parmas)):
-                            fol_result = (info_parmas[_].split("addSearchIndex")[1]).replace('(','').replace(')','').replace("'",'').replace(";",'')
-                            fol_results = fol_result.split(',')
-                            company_info_url = company_infos[_]
+                    fol_results = fol_result.split(',')
+                    if mogodata["所属公司"] == fol_result.split(',')[0]:
+                        company_info_url = company_infos[_]
 
-                            data = {
-                                "search_key":fol_results[0],
-                                "search_index":fol_results[1],
-                                "search_url":'',
-                                "company_name":fol_results[2],
-                                "type":fol_results[-1],
-                            }
+                        data = {
+                            "search_key":fol_results[0],
+                            "search_index":fol_results[1],
+                            "search_url":'',
+                            "company_name":fol_results[2],
+                            "type":fol_results[-1],
+                        }
 
-                            #基本信息
-                            company_info_urls = self.server_auth(data,company_info_url)
-                            html_text = self.company_info_req(company_info_urls)
-                            self.company_info_parse(html_text,item,company_info_urls)
 
-                            # #法律信息
-                            legal_urls = company_info_urls.replace("firm","csusong")
-                            legal_text = self.company_info_req(legal_urls)
-                            self.legal_text_info_parse(legal_text, item, legal_urls)
 
-                            # #经营状况
-                            bus_sate_urls = company_info_urls.replace("firm","crun")
-                            bus_sate_text = self.company_info_req(bus_sate_urls)
-                            self.bus_sate_text_info_parse(bus_sate_text, item, bus_sate_urls)
+                        #基本信息
+                        company_info_urls = self.server_auth(data,company_info_url)
+                        html_text = self.company_info_req(company_info_urls)
+                        self.company_info_parse(html_text,item,company_info_urls)
 
-                            # #经营风险
-                            bus_risks_url = company_info_urls.replace("firm","cfengxian")
-                            bus_risks_text = self.company_info_req(bus_risks_url)
-                            self.bus_risks_text_info_parse(bus_risks_text, item, bus_risks_url)
+                        # #法律信息
+                        legal_urls = company_info_urls.replace("firm","csusong")
+                        legal_text = self.company_info_req(legal_urls)
+                        self.legal_text_info_parse(legal_text, item, legal_urls)
 
-                            # #企业发展
-                            corporate_url = company_info_urls.replace("firm","creport")
-                            corporate_text = self.company_info_req(corporate_url)
-                            self.corporate_text_info_parse(corporate_text, item, corporate_url)
+                        # #经营状况
+                        bus_sate_urls = company_info_urls.replace("firm","crun")
+                        bus_sate_text = self.company_info_req(bus_sate_urls)
+                        self.bus_sate_text_info_parse(bus_sate_text, item, bus_sate_urls)
 
-                            #知识产权
-                            intellectual_urls = company_info_urls.replace("firm","cassets")
-                            intellectual_text = self.company_info_req(intellectual_urls)
-                            self.intellectual_text_info_parse(intellectual_text, item, intellectual_urls)
-                            print(item)
+                        # #经营风险
+                        bus_risks_url = company_info_urls.replace("firm","cfengxian")
+                        bus_risks_text = self.company_info_req(bus_risks_url)
+                        self.bus_risks_text_info_parse(bus_risks_text, item, bus_risks_url)
 
-                            break
+                        # #企业发展
+                        corporate_url = company_info_urls.replace("firm","creport")
+                        corporate_text = self.company_info_req(corporate_url)
+                        self.corporate_text_info_parse(corporate_text, item, corporate_url)
 
-                        break
-                else:
-                    self.get_pro()
+                        #知识产权
+                        intellectual_urls = company_info_urls.replace("firm","cassets")
+                        intellectual_text = self.company_info_req(intellectual_urls)
+                        self.intellectual_text_info_parse(intellectual_text, item, intellectual_urls)
+                        print(item)
 
+                        count -= 1
+                self.borser.close()
             except:
-                self.get_pro()
+                self.borser.close()
+
+
+
 
 
 

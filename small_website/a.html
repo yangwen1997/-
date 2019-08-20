@@ -1,192 +1,530 @@
-
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1"> <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> <meta name="apple-mobile-web-app-capable" content="yes"> <meta name="apple-mobile-web-app-status-bar-style" content="black" /> <meta name="format-detection" content="telephone=no"> <meta name="renderer" content="webkit"> <meta name="author" content="leslie"> <title>重庆聚祥科技有限公司的搜索结果 - 企查查</title> <meta name="keywords" content="企查查,企业查询,公司查询,工商查询,企业信用信息查询系统,企业工商信息查询平台,企业财务信息查询,企业信用评价查询,企业纠纷查询,企业现金流查询,企业股权查询,企业负债查询,企业资产查询,企业财报查询,企业失信信息查询,启信宝,天眼查,天眼通"> <meta name="description" content="企查查信息来自国家企业信用信息公示系统，提供企业信息查询,工商查询,企业信用评价查询，企业纠纷查询，企业现金流查询，企业股权查询，企业负债查询，企业资产查询，企业财报查询,公司查询等相关信息查询；帮您快速了解企业信息,企业工商信息,企业信用信息等经营和人员投资状况！"> <link rel="icon" href="/material/theme/mobile/img/favicon.png"> <link rel="stylesheet" href="/material/theme/mobile/css/common.css?time=20180823" type="text/css" /> <script src="/material/theme/mobile/js/jquery.min.js"></script> <script src="/material/theme/mobile/js/vue.min.js"></script> <script src="/material/theme/mobile/js/jquery.scrollTo.js?t=1"></script> <script src="/material/theme/mobile/js/bootstrap.js"></script> <script src="/material/theme/mobile/js/custom.js?time=20180823"></script> <script type="text/javascript">
-        window.zhuge = window.zhuge || [];window.zhuge.methods = "_init debug identify track trackLink trackForm page".split(" ");
-        window.zhuge.factory = function(b) {return function() {var a = Array.prototype.slice.call(arguments);a.unshift(b);
-            window.zhuge.push(a);return window.zhuge;}};for (var i = 0; i < window.zhuge.methods.length; i++) {
-            var key = window.zhuge.methods[i];window.zhuge[key] = window.zhuge.factory(key);}window.zhuge.load = function(b, x) {
-            if (!document.getElementById("zhuge-js")) {var a = document.createElement("script");var verDate = new Date();
-                var verStr = verDate.getFullYear().toString()+ verDate.getMonth().toString() + verDate.getDate().toString();
-                a.type = "text/javascript";a.id = "zhuge-js";a.async = !0;a.src = (location.protocol == 'http:' ? "http://tongji.qichacha.com/zhuge.js" : 'https://tongji.qichacha.com/zhuge.js');
-                a.onerror = function(){window.zhuge.identify = window.zhuge.track = function(ename, props, callback){if(callback && Object.prototype.toString.call(callback) === '[object Function]')callback();};};
-                var c = document.getElementsByTagName("script")[0];c.parentNode.insertBefore(a, c);window.zhuge._init(b, x)}};
-        window.zhuge.load('de1d1a35bfa24ce29bbf2c7eb17e6c4f',{
-            visualizer: true
-        });
-            </script> </head> <body> <style type="text/css">
-	.navtop{
-		width: 100%;
-		height: 52px;
-		background: #fff;
-	}
-	.navtop .logo{
-		width: 108.5px;
-		margin-left: 15px;
-		margin-top: 8px;
-		line-height: 20px;
-		float: left;
-	}
-	.navtop .logo>img{
-		width: 100%;
-	}
-	.navtop a{
-		float: right;
-		text-decoration: none;
-		line-height: 32px;
-		margin-top: 10px;
-	}
-	.navtop .userinf{
-		color: #128bed;
-		margin-right: 15px;
-	}
-	.navtop .app-btn{
-		width: 74px;
-		background: #128bed;
-		color: #fff;
-		border-radius: 4px;
-		text-align: center;
-		font-size: 14px;
-		margin-right: 15px;
-	}
-	.navtop .app-btn:after{
-		content: " ";
-		width: 1px;
-		background: #eee;
-		height: 24px;
-		position: absolute;
-		margin-left: 21px;
-		margin-top: 4px;
-	}
-</style> <script type="text/javascript">
-	var jcompanykey;
-	
-	var jpersonid;
-	var jpersonname;
-	var jindex;
-	var isWeixn;
-	var isAndroid;
-	var isiOS;
-	var timer;
-	
-	
-	
-	$(function(){
-		var u = navigator.userAgent, app = navigator.appVersion;
-		isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //android终端或者uc浏览器 
-		isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端   
-		var ua = navigator.userAgent.toLowerCase();  
-	    if(ua.match(/MicroMessenger/i)=="micromessenger") {  
-	        isWeixn = true;  
-	    } else {  
-	        isWeixn = false; 
-	    } 
-	    if(isAndroid){
-	    	var jumpUrl;
-			if(jcompanykey){
-				jumpUrl = 'qichacha://com.android.icredit/c?id='+jcompanykey;
-			}else if(jpersonid){
-				jumpUrl = 'qichacha://com.android.icredit/p?id='+jpersonid+'&name='+jpersonname;
-			}else{
-				jumpUrl = 'qichacha://com.android.icredit/';
-			}
-			$('#appBtn').attr('href',jumpUrl);
-	    } 
-	    firstJump();
-	})
-	function firstJump(){
-		if(jcompanykey){
-			if(isAndroid){
-				location.href='qichacha://com.android.icredit/c?id='+jcompanykey;
-			}else if(isiOS){
-				//location.href='http://mob.qichacha.com/app/company.html?back=1&unique='+jcompanykey;
-			}
-		}else if(jpersonid){
-			if(isAndroid){
-				location.href='qichacha://com.android.icredit/p?id='+jpersonid+'&name='+jpersonname;
-			}else if(isiOS){
-				//location.href='http://mob.qichacha.com/app/boss.html?back=1&personID='+jpersonid+'&name='+jpersonname;
-			}
-		}else if(jindex){
-			if(isAndroid){
-				location.href='qichacha://com.android.icredit/';
-			}else if(isiOS){
-				location.href='qichacha://';
-			}
-		}
-	}
-	
-	function openApp() {
-		if(isWeixn){
-			alert('请从浏览器中打开');
-		}else{
-			if(isiOS){
-				var jumpUrl;
-				if(jcompanykey){
-					jumpUrl = 'http://mob.qichacha.com/app/company.html?unique='+jcompanykey;
-				}else if(jpersonid){
-					jumpUrl = 'http://mob.qichacha.com/app/boss.html?personID='+jpersonid+'&name='+jpersonname;
-				}else{
-					jumpUrl = 'http://mob.qichacha.com/app';
-				}
-				window.location.href = jumpUrl;
-			}else if(isAndroid){
-				// var jumpUrl;
-				// if(jcompanykey){
-				// 	jumpUrl = 'qichacha://com.android.icredit/c?id='+jcompanykey;
-				// }else if(jpersonid){
-				// 	jumpUrl = 'qichacha://com.android.icredit/p?id='+jpersonid;
-				// }else{
-				// 	jumpUrl = 'qichacha://com.android.icredit/';
-				// }
-				// window.location.href = jumpUrl;
-				var hasApp = true , t = 1000;
-		        timer = setTimeout(function() {
-		        	if(!hasApp){
-		        		window.location.href = "http://www.qichacha.com/weixin?from=mobilewap";
-		        	}
-				}, 2000);
-				var t1 = Date.now();
-				setTimeout(function () {    //t的时间就是出发APP启动的时间，若APP启动了，再次返回页面时t2这行代码执行，hasApp即为true。反之若APP没有启动即为false
-			      var t2 = Date.now();
-			      hasApp = !(!t1 || t2 - t1 < t + 150);
-			    } , t);
-			}
-		}
-	}
-	$(document).on('visibilitychange webkitvisibilitychange', function() {
-	    var tag = document.hidden || document.webkitHidden;
-	    if (tag) {
-	        clearTimeout(timer);
-	    }
-	})
-	$(window).on('pagehide', function() {
-	    clearTimeout(timer);
-	})
-	
-</script> <div class="navtop clearfix"> <a class="logo" href="/"><img src="https://www.qichacha.com/material/theme/chacha/cms/v2/images/logo4.png"></a> <a rel="nofollow" class="userinf" href="/user_login">登录或注册</a> <a id="appBtn" class="app-btn" onclick="openApp()" href="javascript:;">打开APP</a> </div> <link rel="stylesheet" href="/material/theme/mobile/css/search_list.css?time=20180823" type="text/css" /> <div class="search-bar"> <a class="search-bar-back" href="javascript: history.back(0);"> <i></i> </a> <form action="/search"> <div class="search-bar-input" > <input type="text" value="重庆聚祥科技有限公司" class="searchkey" placeholder="请输入企业名称、人名、品牌、地址等" id="searchkey" name="key" required="required" autocomplete="off"> <input type="submit" class="searchbtn" value="搜索"/> <a href="javascript:;" onclick="clearSearch()" id="searchClear" class="search-clear"></a> </div> </form> </div> <div class="nodata"><img src="/material/theme/mobile/img/nodata.png"><p>小查未找到数据</p></div> <script type="text/javascript" src="/material/theme/mobile/js/search.js?time=20180823"></script> <div class="download-pop" id="download-pop"> <div class="mask"></div> <div class="download-dialog"> <div class="pop-bg"> <img src="/material/theme/mobile/img/pop_bg.png?t=2"> </div> <div class="ft"> <a href="http://www.qichacha.com/weixin_jump?from=mobilewap" class="text-primary dialog-btn">下载</a> </div> </div> </div> <div style="display:none;"> <script src="https://s4.cnzz.com/z_stat.php?id=1254842228&web_id=1254842228" language="JavaScript"></script> <script>
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?3456bee468c83cc63fb5147f119f1075";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-	</script> </div> <script type="text/javascript">
-	function popDownload(){
-		$('#download-pop').show();
-		$('#download-pop .mask').click(function(){
-			$('#download-pop').hide();
-		})
-	}
-    (function(){
-        var bp = document.createElement('script');
-        var curProtocol = window.location.protocol.split(':')[0];
-        if (curProtocol === 'https') {
-            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-        }
-        else {
-            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-        }
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(bp, s);
-    })();
-</script> </body> </html>
+'
+<div class="run_info"></div>
+<section class="panel b-a clear m_dataTab">
+    <div class="panel-body" style="padding-top: 5px"><a href="javascript:;"
+                                                        onclick="boxScrollNew(\'#licenslist\');zhugeTrack(\'企业主页-经营状况-行政许可\',{\'企业名称\':\'北京浩沃特矿业技术有限公司\'});"
+                                                        class="btn btn-sm btn-default  m-r-sm m-t-sm"
+                                                        style="white-space:nowrap;">\n 行政许可&nbsp;1\n </a> <a
+            href="javascript:;"
+            onclick="boxScrollNew(\'#taxCreditList\');zhugeTrack(\'企业主页-经营状况-税务信用\',{\'企业名称\':\'北京浩沃特矿业技术有限公司\'});"
+            class="btn btn-sm btn-default  m-r-sm m-t-sm" style="white-space:nowrap;">\n 税务信用&nbsp;1\n </a> <a
+            href="javascript:;" class="btn btn-sm btn-default  m-r-sm m-t-sm c_disable"
+            style="white-space:nowrap;cursor: default">\n 招投标信息&nbsp;0\n </a> <a href="javascript:;"
+                                                                                 class="btn btn-sm btn-default  m-r-sm m-t-sm c_disable"
+                                                                                 style="white-space:nowrap;cursor: default">\n
+        招聘&nbsp;0\n </a> <a href="javascript:;"
+                            onclick="boxScrollNew(\'#V3_cwzl\');zhugeTrack(\'企业主页-经营状况-财务总览\',{\'企业名称\':\'北京浩沃特矿业技术有限公司\'});"
+                            class="btn btn-sm btn-default  m-r-sm m-t-sm" style="white-space:nowrap;">\n
+        财务总览&nbsp;1\n </a> <a href="javascript:;"
+                              onclick="boxScrollNew(\'#ciaxlist\');zhugeTrack(\'企业主页-经营状况-进出口信用\',{\'企业名称\':\'北京浩沃特矿业技术有限公司\'});"
+                              class="btn btn-sm btn-default  m-r-sm m-t-sm" style="white-space:nowrap;">\n 进出口信用&nbsp;1\n </a>
+        <a href="javascript:;"
+           onclick="boxScrollNew(\'#wechatlist\');zhugeTrack(\'企业主页-经营状况-微信公众号\',{\'企业名称\':\'北京浩沃特矿业技术有限公司\'});"
+           class="btn btn-sm btn-default  m-r-sm m-t-sm" style="white-space:nowrap;">\n 微信公众号&nbsp;1\n </a> <a
+                href="javascript:;" class="btn btn-sm btn-default  m-r-sm m-t-sm c_disable"
+                style="white-space:nowrap;cursor: default">\n 微博&nbsp;0\n </a> <a href="javascript:;"
+                                                                                  onclick="boxScrollNew(\'#newslist\');zhugeTrack(\'企业主页-经营状况-新闻舆情\',{\'企业名称\':\'北京浩沃特矿业技术有限公司\'});"
+                                                                                  class="btn btn-sm btn-default  m-r-sm m-t-sm"
+                                                                                  style="white-space:nowrap;">\n 新闻舆情&nbsp;34\n </a>
+        <a href="javascript:;"
+           onclick="boxScrollNew(\'#yblist\');zhugeTrack(\'企业主页-经营状况-公告研报\',{\'企业名称\':\'北京浩沃特矿业技术有限公司\'});"
+           class="btn btn-sm btn-default  m-r-sm m-t-sm" style="white-space:nowrap;">\n 公告研报&nbsp;1\n </a> <a
+                href="javascript:;" class="btn btn-sm btn-default  m-r-sm m-t-sm c_disable"
+                style="white-space:nowrap;cursor: default">\n 地块公示&nbsp;0\n </a> <a href="javascript:;"
+                                                                                    class="btn btn-sm btn-default  m-r-sm m-t-sm c_disable"
+                                                                                    style="white-space:nowrap;cursor: default">\n
+            购地信息&nbsp;0\n </a> <a href="javascript:;" class="btn btn-sm btn-default  m-r-sm m-t-sm c_disable"
+                                  style="white-space:nowrap;cursor: default">\n 土地转让&nbsp;0\n </a> <a
+                href="javascript:;" class="btn btn-sm btn-default  m-r-sm m-t-sm c_disable"
+                style="white-space:nowrap;cursor: default">\n 债券信息&nbsp;0\n </a> <a href="javascript:;"
+                                                                                    class="btn btn-sm btn-default  m-r-sm m-t-sm c_disable"
+                                                                                    style="white-space:nowrap;cursor: default">\n
+            抽查检查&nbsp;0\n </a> <a href="javascript:;" class="btn btn-sm btn-default  m-r-sm m-t-sm c_disable"
+                                  style="white-space:nowrap;cursor: default">\n 电信许可&nbsp;0\n </a> <a
+                href="javascript:;" class="btn btn-sm btn-default  m-r-sm m-t-sm c_disable"
+                style="white-space:nowrap;cursor: default">\n 供应商&nbsp;0\n </a> <a href="javascript:;"
+                                                                                   class="btn btn-sm btn-default  m-r-sm m-t-sm c_disable"
+                                                                                   style="white-space:nowrap;cursor: default">\n
+            客户&nbsp;0\n </a> <a href="javascript:;" class="btn btn-sm btn-default  m-r-sm m-t-sm c_disable"
+                                style="white-space:nowrap;cursor: default">\n 信用评级&nbsp;0\n </a></div>
+</section>
+<div id="licenslist"></div>
+<section class="panel clear b-a">
+    <div class="tcaption"><span class="title"> 行政许可 [信用中国]</span> <span class="tbadge">1</span> <span class="thist">（查看更多2条 <a
+            onclick="showVipModal(\'历史信息\',\'成为VIP会员即可 查看历史工商变更、投资、股东、诉讼、受到的行政处罚等信息\',null,null,null,true)">历史行政许可</a>）</span>
+        <span class="watermark"></span></div>
+    <table class="ntable ntable-odd">
+        <tr>
+            <th class="tx">序号</th>
+            <th>决定文书号</th>
+            <th>许可机关</th>
+            <th>决定日期</th>
+            <th>内容</th>
+        </tr>
+        <tr>
+        <tr>
+            <td class="tx">1</td>
+            <td class="text-center">91110101584446742t</td>
+            <td class="text-center">\n 北京市工商行政管理局\n</td>
+            <td width="103">\n 2018-03-09\n</td>
+            <td width="90" class="text-center"><a class="ma_court c-max600" data-toggle="modal" data-target="#xkModal"
+                                                  class="xzxukeView"
+                                                  onclick=\'xzxukeView("dd674aecfaee0e001e02eb3c216e7dee_7")\'>详情</a>
+            </td>
+        </tr>
+        </tr> </table>
+</section>
+<section class="panel clear  b-a" id="taxCreditList">
+    <div class="tcaption"><h3 class="title"> 税务信用</h3> <span class="tbadge">1</span> <span class="watermark"></span>
+    </div>
+    <table class="ntable ntable-odd">
+        <tr>
+            <th class="tx">序号</th>
+            <th>评价年度</th>
+            <th>纳税人识别号</th>
+            <th>纳税信用等级</th>
+            <th>评价单位</th>
+        </tr>
+        <tr>
+        <tr>
+            <td class="tx">1</td>
+            <td class="text-center">2018</td>
+            <td class="text-center">91110101584446742T</td>
+            <td class="text-center">A</td>
+            <td class="text-center">国家税务总局</td>
+        </tr>
+        </tr> </table>
+</section>
+<section class="panel b-a clear finance_info" id="V3_cwzl">
+    <div class="tcaption"><h3 class="title">财务总览</h3>&nbsp;&nbsp;(相关数据来源企业年报估算，仅供参考)\n <span class="watermark"></span>
+    </div>
+    <table class="ntable">
+        <tr>
+            <td width="20%" class="tb">企业实力等级：</td>
+            <td width="30%">500万-2000万</td>
+            <td width="20%" class="tb">纳税区间：</td>
+            <td width="30%">1万以下</td>
+        </tr>
+        <tr>
+            <td class="tb">销售净利润率：</td>
+            <td>0到10%</td>
+            <td class="tb">销售毛利率：</td>
+            <td>10%到50%</td>
+        </tr>
+    </table>
+</section>
+<div id="financean"></div>
+<section class="panel clear  b-a" id="ciaxlist">
+    <div class="tcaption"><h3 class="title"> 进出口信用</h3> <span class="tbadge">1</span> <span class="watermark"></span>
+    </div>
+    <table class="ntable ntable-odd">
+        <tr>
+            <th class="tx">序号</th>
+            <th width="25%">注册海关</th>
+            <th>经营类别</th>
+            <th>注册日期</th>
+            <th>内容</th>
+        </tr>
+        <tr>
+        <tr>
+            <td class="tx">1</td>
+            <td>北京关区</td>
+            <td class="text-center">进出口收发货人</td>
+            <td width="103">\n 2011-12-12\n</td>
+            <td width="90" class="text-center"><a class="text-primary" data-toggle="modal" data-target="#jcModal"
+                                                  class="jinchuinfoView"
+                                                  onclick=\'jinchuinfoView("c7a8602464e95d571b2d14aa11f67702")\'>详情</a>
+            </td>
+        </tr>
+        </tr> </table>
+    <div></div>
+</section>
+<section class="panel clear  b-a" id="wechatlist">
+    <div class="c_split_10"></div>
+    <div class="tcaption"><span class="title"> 微信公众号</span> <span class="tbadge">1</span> <span
+            class="watermark"></span></div>
+    <table class="ntable ntable-odd">
+        <tr>
+            <th class="tx">序号</th>
+            <th width="90">头像</th>
+            <th width="174">微信公众号</th>
+            <th width="134">微信号</th>
+            <th width="80">二维码</th>
+            <th>简介</th>
+        </tr>
+        <tr>
+        <tr>
+            <td class="tx">1</td>
+            <td><img
+                    src="http://img.qichacha.com/Wechat/Qrcode/0e112473b73d3a085326bf2034d278fc.jpg?x-oss-process=style/image_crop"
+                    style="width: 66px;"></td>
+            <td class="text-center">HOT全球矿业资讯</td>
+            <td class="text-center">hot-mining</td>
+            <td class="text-center"><img src="/material/theme/chacha/cms/v2/images/icon_qrcode.png"
+                                         style="width: 44px;display: block;margin:auto ">
+                <div class="text-primary wechart-hover">详情\n
+                    <div class="wechat-kuang">
+                        <div class="title">HOT全球矿业资讯</div>
+                        <div class="subtitle">hot-mining</div>
+                        <img class="wechat-qrcode"
+                             src="http://img.qichacha.com/Wechat/Qrcode/0e112473b73d3a085326bf2034d278fc.jpg"></div>
+                </div>
+            </td>
+            <td>\n 分享最新海内外矿业国际资讯，项目信息，矿业投融资，领先采、选技术以及矿山机械设备，采购招标信息，致力于建立国际矿业界一流服务平台\n</td>
+        </tr>
+        </tr> </table>
+    <div></div>
+</section>
+<section class="panel b-a clear" style="display: none;">
+    <div class="tcaption  m-t"><h3 class="title">新闻舆情统计分析</h3> <a class="hchart" onclick="hideChart(this)"
+                                                                  href="javascript:;"> <span>收起</span> <i
+            class="i i-arrow-up4"></i> </a></div>
+    <div class="float-wrap">
+        <div class="col-sm-6 col-xs-12 no-padding">
+            <div class="nchart-item-title">舆情情感类型占比</div>
+            <div id="type-chart" class="nchart-item hmd"></div>
+        </div>
+        <div class="col-sm-6 col-xs-12 no-padding" style="padding-left: 7px;">
+            <div class="nchart-item-title">新闻舆情趋势</div>
+            <div id="trend-chart" class="nchart-item hmd"></div>
+        </div>
+        <div class="col-sm-6 col-xs-12 no-padding">
+            <div class="nchart-item-title">近期媒体印象</div>
+            <div id="cloud-chart" class="nchart-item hmd"></div>
+        </div>
+        <div class="col-sm-6 col-xs-12 no-padding" style="padding-left: 7px;">
+            <div class="nchart-item-title">新闻类型分布 TOP10</div>
+            <div id="category-chart" class="nchart-item hmd"></div>
+        </div>
+    </div>
+</section>
+<div id="newslistByjob" style="position: relative;top: -40px;"></div>
+<section class="panel clear b-a" id="newslist">
+    <div class="c_split_10"></div>
+    <div class="tcaption"><span class="title">新闻舆情</span> <span class="tbadge">34</span>
+        <div class="chooseRun" data-box="news" style="float: right">
+            <div class="tdrop"><span class="btn" data-toggle="dropdown"> <span class="newstags">类别不限</span> <span
+                    class="caret m-l"></span> </span>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="javascript:;" data-option="tags" data-value="">不限</a></li>
+                    <li><a href="javascript:;" data-option="tags" data-value="1200">高管变动(1)</a></li>
+                    <li><a href="javascript:;" data-option="tags" data-value="2600">安全事故(1)</a></li>
+                    <li><a href="javascript:;" data-option="tags" data-value="3100">上市退市(1)</a></li>
+                    <li><a href="javascript:;" data-option="tags" data-value="3200">亏损盈利(1)</a></li>
+                    <li><a href="javascript:;" data-option="tags" data-value="3300">投资融资(7)</a></li>
+                    <li><a href="javascript:;" data-option="tags" data-value="3400">收购重组(1)</a></li>
+                    <li><a href="javascript:;" data-option="tags" data-value="5000">产品相关(1)</a></li>
+                    <li><a href="javascript:;" data-option="tags" data-value="0000">其他(23)</a></li>
+                </ul>
+            </div>
+            <div class="tdrop"><span class="btn" data-toggle="dropdown"> <span class="newsimpact">情感不限</span> <span
+                    class="caret m-l"></span> </span>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="javascript:;" data-option="impact" data-value="">不限</a></li>
+                    <li><a href="javascript:;" data-option="impact" data-value="none">中立(11)</a></li>
+                    <li><a href="javascript:;" data-option="impact" data-value="positive">积极(23)</a></li>
+                </ul>
+            </div>
+        </div>
+        <span class="watermark"></span></div>
+    <table class="ntable ntable-list">
+        <tr>
+            <td><a href="https://news.qichacha.com/postnews_829a36777f50218876447729cd03a6fa.html" target="_blank"
+                   class="clearfix">
+                <div>
+                    <div class="news-impact-title"><span class="news-impact">积极</span> <span class="title">贵州九兴红光矿业有限责任公司与北京浩沃特矿业技术有限公司即将共同参加2018年德国工业涂料技术展</span>
+                    </div>
+                    <div class="news-tag clearfix"></div>
+                    <small class="clear subtitle m-t-lg"><label>来源：</label> 微信公众号\n <span class="pull-right"><label>发布时间：</label> 2018-03-05 </span>
+                    </small>
+                </div>
+            </a></td>
+        </tr>
+        <tr>
+            <td><a href="https://news.qichacha.com/postnews_5f5d83add29457fe2536936ea5e0b6ea.html" target="_blank"
+                   class="clearfix">
+                <div>
+                    <div class="news-impact-title"><span class="news-impact">积极</span> <span class="title">招聘|[云南] 北京浩沃特矿业技术有限公司</span>
+                    </div>
+                    <div class="news-tag clearfix"></div>
+                    <small class="clear subtitle m-t-lg"><label>来源：</label> 微信公众号\n <span class="pull-right"><label>发布时间：</label> 2017-12-26 </span>
+                    </small>
+                </div>
+            </a></td>
+        </tr>
+        <tr>
+            <td><a href="https://news.qichacha.com/postnews_27f286d0f2e3d2cc63a5b4d96e00b9c8.html" target="_blank"
+                   class="clearfix">
+                <div>
+                    <div class="news-impact-title"><span class="news-impact default">中立</span> <span class="title">[干货]澳大利亚OFL选煤厂项目工艺设计实例-炼金术士[番外篇]</span>
+                    </div>
+                    <div class="news-tag clearfix"></div>
+                    <small class="clear subtitle m-t-lg"><label>来源：</label> 搜狐\n <span
+                            class="pull-right"><label>发布时间：</label> 2017-11-22 </span></small>
+                </div>
+            </a></td>
+        </tr>
+        <tr>
+            <td><a href="https://news.qichacha.com/postnews_253bb3a7c497f868bf02f20b9340cbbc.html" target="_blank"
+                   class="clearfix">
+                <div>
+                    <div class="news-impact-title"><span class="news-impact">积极</span> <span class="title">炭浸法提金的新方法和方向介绍</span>
+                    </div>
+                    <div class="news-tag clearfix"></div>
+                    <small class="clear subtitle m-t-lg"><label>来源：</label> 微信公众号\n <span class="pull-right"><label>发布时间：</label> 2017-11-17 </span>
+                    </small>
+                </div>
+            </a></td>
+        </tr>
+        <tr>
+            <td><a href="https://news.qichacha.com/postnews_681362350ddca6ad647d4268a6e8b38c.html" target="_blank"
+                   class="clearfix">
+                <div>
+                    <div class="news-impact-title"><span class="news-impact default">中立</span> <span class="title">矿业枭雄(连载7)这不是第一个神人(1)</span>
+                    </div>
+                    <div class="news-tag clearfix"></div>
+                    <small class="clear subtitle m-t-lg"><label>来源：</label> 微信公众号\n <span class="pull-right"><label>发布时间：</label> 2017-11-05 </span>
+                    </small>
+                </div>
+            </a></td>
+        </tr>
+        <tr>
+            <td><a href="https://news.qichacha.com/postnews_0f254575721c321a2aed69173ea909d4.html" target="_blank"
+                   class="clearfix">
+                <div>
+                    <div class="news-impact-title"><span class="news-impact">积极</span> <span
+                            class="title">选煤装备行业报告摘要</span></div>
+                    <div class="news-tag clearfix"><span>#收购重组</span></div>
+                    <small class="clear subtitle m-t-lg"><label>来源：</label> 微信公众号\n <span class="pull-right"><label>发布时间：</label> 2017-10-28 </span>
+                    </small>
+                </div>
+            </a></td>
+        </tr>
+        <tr>
+            <td><a href="https://news.qichacha.com/postnews_3a267f4801593ff88510e707a6a2dc54.html" target="_blank"
+                   class="clearfix">
+                <div>
+                    <div class="news-impact-title"><span class="news-impact">积极</span> <span class="title">HOT获得赞比亚铜钴矿选矿项目咨询合同</span>
+                    </div>
+                    <div class="news-tag clearfix"></div>
+                    <small class="clear subtitle m-t-lg"><label>来源：</label> 微信公众号\n <span class="pull-right"><label>发布时间：</label> 2017-10-25 </span>
+                    </small>
+                </div>
+            </a></td>
+        </tr>
+        <tr>
+            <td><a href="https://news.qichacha.com/postnews_9b9d66948686465bb37303f8e16db6da.html" target="_blank"
+                   class="clearfix">
+                <div>
+                    <div class="news-impact-title"><span class="news-impact default">中立</span> <span class="title">中国获得国际认可的矿业合资格人最全名单</span>
+                    </div>
+                    <div class="news-tag clearfix"></div>
+                    <small class="clear subtitle m-t-lg"><label>来源：</label> 搜狐\n <span
+                            class="pull-right"><label>发布时间：</label> 2017-09-09 </span></small>
+                </div>
+            </a></td>
+        </tr>
+        <tr>
+            <td><a href="https://news.qichacha.com/postnews_5f041bc94364710aa2c3bc73489a70ab.html" target="_blank"
+                   class="clearfix">
+                <div>
+                    <div class="news-impact-title"><span class="news-impact">积极</span> <span class="title">北京浩沃特矿业技术有限公司成都分公司</span>
+                    </div>
+                    <div class="news-tag clearfix"></div>
+                    <small class="clear subtitle m-t-lg"><label>来源：</label> 微信公众号\n <span class="pull-right"><label>发布时间：</label> 2017-08-29 </span>
+                    </small>
+                </div>
+            </a></td>
+        </tr>
+        <tr>
+            <td><a href="https://news.qichacha.com/postnews_85e156af11947d2d2bbd6c92f13efdf2.html" target="_blank"
+                   class="clearfix">
+                <div>
+                    <div class="news-impact-title"><span class="news-impact">积极</span> <span class="title">选煤厂三维设计建模软件的选型</span>
+                    </div>
+                    <div class="news-tag clearfix"></div>
+                    <small class="clear subtitle m-t-lg"><label>来源：</label> 微信公众号\n <span class="pull-right"><label>发布时间：</label> 2017-08-16 </span>
+                    </small>
+                </div>
+            </a></td>
+        </tr>
+    </table>
+    <div style="margin-bottom: 30px;">
+        <nav class="text-right">
+            <ul class="pagination">
+                <li class=\'active\'><a htef=\'#\'>1</a></li>
+                <li><a id=\'ajaxpage\' href=\'javascript:getTabList(2,"run","news")\'>2</a></li>
+                <li><a id=\'ajaxpage\' href=\'javascript:getTabList(3,"run","news")\'>3</a></li>
+                <li><a id=\'ajaxpage\' href=\'javascript:getTabList(4,"run","news")\'>4</a></li>
+                <li><a id=\'ajaxpage\' href=\'javascript:getTabList(2,"run","news")\'>></a></li>
+            </ul>
+        </nav>
+    </div>
+    <script type="text/javascript">\n
+    var optionArr = [\'newstags\',\'newsimpact\'];\n        var descArr = [\'类别不限\',\'情感不限\'];\n        var hiddenName = \'\';\n        var hiddenValue = \'\';\n        var hiddenDesc = \'\';\n        for(var i=0;i<optionArr.length;i++){\n            hiddenName = optionArr[i];\n            hiddenValue = $("input[name=" + hiddenName + "]").val();\n            hiddenDesc = $("input[name=" + hiddenName + "]").attr(\'data-desc\');\n            var text = \'.\' + hiddenName;\n            if(hiddenValue != \'\' && hiddenValue != \'0\'){\n                $(text).text(hiddenDesc);\n            }else{\n                $(text).text(descArr[i]);\n            }\n        }\n        $(function () {\n            $(\'#newslist .chooseRun\').find(\'a\').on(\'click\',function(){\n                var targetDiv = $(this).parent().parent().parent().parent();\n                var target = targetDiv.attr(\'data-box\');\n                var optionArr = [];\n                var hiddenName = \'\';\n                var hiddenValue = \'\';\n                var ajaxData = {};\n                switch(target){\n                    case \'news\':\n                        optionArr = [\'newstags\',\'newsimpact\'];\n                        ajaxData[\'box\'] = \'news\';\n                        break;\n                    default :\n                        break;\n                }\n                var option = $(this).attr(\'data-option\');\n                option = target + option;\n                var value = $(this).attr(\'data-value\');\n                var text = $(this).text();\n                var textArr = text.split(\'(\');\n                $("input[name=" + option + "]").val(value);\n                $("input[name=" + option + "]").attr(\'data-desc\',textArr[0]);\n                //取所有筛选条件的值\n                for(var i=0;i<optionArr.length;i++){\n                    hiddenName = optionArr[i];\n                    hiddenValue = $("input[name=" + hiddenName + "]").val();\n                    ajaxData[hiddenName] = hiddenValue;\n                }\n                //拼接其他参数\n                ajaxData[\'unique\'] = $("#unique").val();\n                ajaxData[\'companyname\'] = $("#companyname").val();\n                ajaxData[\'tab\'] = \'run\';\n                ajaxData[\'p\'] = \'1\';\n                getTabListNew(ajaxData);\n            });\n        });\n    </script>
+</section>
+<section class="panel clear b-a" id="yblist">
+    <div class="tcaption"><h3 class="title">公告研报</h3> <span class="tbadge">1</span>
+        <div class="chooseRun" data-box="yb" style="float: right">
+            <div class="tdrop"><span class="btn" data-toggle="dropdown"> <span class="ybtype">全部报告</span> <span
+                    class="caret m-l"></span> </span>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="javascript:;" data-option="type" data-value="0">不限</a></li>
+                    <li><a href="javascript:;" data-option="type" data-value="3">相关公告(1)</a></li>
+                </ul>
+            </div>
+        </div>
+        <span class="watermark"></span></div>
+    <table class="ntable ntable-odd">
+        <tbody>
+        <tr>
+            <th>序号</th>
+            <th>研报内容</th>
+            <th width="85">报告种类</th>
+            <th width="114">发布日期</th>
+        </tr>
+        <tr>
+            <td class="tx">\n 1\n</td>
+            <td><a href="http://qccdata.qichacha.com/Disclosure/c60119b3b1f940e87b2f1dccd9e73f97.pdf" target="_blank"
+                   download="true">\n 赫宸环境:2013年年度报告\n </a></td>
+            <td class="text-center">\n 相关公告\n</td>
+            <td class="text-center">\n 2014-04-25\n</td>
+        </tr>
+        </tbody>
+    </table>
+    <div></div>
+    <script>\n
+    $(function () {\n        //设置选择状态\n        var optionArr = [\'ybtype\'];\n        var descArr = [\'全部报告\'];\n        var hiddenName = \'\';\n        var hiddenValue = \'\';\n        var hiddenDesc = \'\';\n        for(var i=0;i<optionArr.length;i++){\n            hiddenName = optionArr[i];\n            hiddenValue = $("input[name=" + hiddenName + "]").val();\n            hiddenDesc = $("input[name=" + hiddenName + "]").attr(\'data-desc\');\n            var text = \'.\' + hiddenName;\n            if(hiddenValue != \'\' && hiddenValue != \'0\'){\n                $(text).text(hiddenDesc);\n            }else{\n                $(text).text(descArr[i]);\n            }\n        }\n    });\n</script>
+</section>
+<section class="panel b-a clear">
+    <div class="m_ptsc" style="padding:20px 0;">数据来源：国家企业信用信息公示系统。</div>
+</section>
+<div class="modal fade" id="xkModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog nmodal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">x</span></button>
+                <h4 class="modal-title" id="myModalLabel">行政许可详情</h4></div>
+            <div class="modal-body">
+                <div class="xzxukeview"></div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="appDownloadModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog nmodal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">x</span></button>
+                <h4 class="modal-title">下载APP</h4></div>
+            <div class="modal-body">
+                <div class="qocdeBox"><img src="/material/theme/chacha/cms/app/images/download_qcode.png"/></div>
+            </div>
+            <div class="modal-footer">\n 扫描下载企查查APP，查看招投标信息\n</div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="tenderModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog nmodal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">x</span></button>
+                <h4 class="modal-title">招投标详情</h4></div>
+            <div class="modal-body reptile-view" style="max-height: calc(100vh - 125px);overflow-y: auto;"></div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="jcModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog nmodal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">x</span></button>
+                <h4 class="modal-title" id="myModalLabel">海关进出口信用信息详情</h4></div>
+            <div class="modal-body">
+                <div class="jcxyview"></div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="landpubModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog nmodal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">x</span></button>
+                <h4 class="modal-title" id="myModalLabel">地块公示详情</h4></div>
+            <div class="modal-body">
+                <div id="landpubview"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="landpurchaseModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog nmodal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">x</span></button>
+                <h4 class="modal-title" id="myModalLabel">购地信息详情</h4></div>
+            <div class="modal-body">
+                <div id="landpurchaseview"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="landmarketModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog nmodal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">x</span></button>
+                <h4 class="modal-title" id="myModalLabel">土地转让详情</h4></div>
+            <div class="modal-body">
+                <div id="landmarketview"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="telecomModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog nmodal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">x</span></button>
+                <h4 class="modal-title" id="myModalLabel">电信许可详情</h4></div>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="creditorModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">x</span></button>
+                <h4 class="modal-title" id="myModalLabel">债券信息详情</h4></div>
+            <div class="modal-body">
+                <div id="creditorview"></div>
+                <div class="clearfix"></div>
+                <div id="creditorannouncementlist"></div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">\n
+setTimeout(function () {\n
+    newsChart(\'c7a8602464e95d571b2d14aa11f67702\');\n    }, 500);\n</script>
+<script>\n
+$(function () {\n
+    $(\'body\').on(\'click\',\'#yblist .chooseRun a\',function(){\n            var targetDiv = $(this).parent().parent().parent().parent();\n            var target = targetDiv.attr(\'data-box\');\n            var optionArr = [];\n            var hiddenName = \'\';\n            var hiddenValue = \'\';\n            var ajaxData = {};\n            switch(target){\n                case \'yb\':\n                    optionArr = [\'ybtype\'];\n                    ajaxData[\'box\'] = \'yb\';\n                    break;\n                default :\n                    break;\n            }\n            var option = $(this).attr(\'data-option\');\n            option = target + option;\n            var value = $(this).attr(\'data-value\');\n            var text = $(this).text();\n            var textArr = text.split(\'(\');\n            $("input[name=" + option + "]").val(value);\n            $("input[name=" + option + "]").attr(\'data-desc\',textArr[0]);\n            //取所有筛选条件的值\n            for(var i=0;i<optionArr.length;i++){\n                hiddenName = optionArr[i];\n                hiddenValue = $("input[name=" + hiddenName + "]").val();\n                ajaxData[hiddenName] = hiddenValue;\n            }\n            //拼接其他参数\n            ajaxData[\'unique\'] = $("#unique").val();\n            ajaxData[\'companyname\'] = $("#companyname").val();\n            ajaxData[\'tab\'] = \'run\';\n            ajaxData[\'p\'] = \'1\';\n            getTabListNew(ajaxData);\n        });\n    });\n</script>\n\n '

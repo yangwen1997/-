@@ -10,20 +10,23 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/small_website$snw.coverage" NAME="snw Coverage Results" MODIFIED="1560151317915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/snw" />
-    <SUITE FILE_PATH="coverage/small_website$requests_html.coverage" NAME="requests_html Coverage Results" MODIFIED="1562835469887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/small_website$transAddr.coverage" NAME="transAddr Coverage Results" MODIFIED="1559787369909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/city_category" />
     <SUITE FILE_PATH="coverage/small_website$tianmao.coverage" NAME="tianmao Coverage Results" MODIFIED="1561013259280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/tianmao" />
-    <SUITE FILE_PATH="coverage/small_website$requests_ht.coverage" NAME="requests_ht Coverage Results" MODIFIED="1562837261492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/small_website$qcc.coverage" NAME="qcc Coverage Results" MODIFIED="1563243993296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qcc_spider" />
-    <SUITE FILE_PATH="coverage/small_website$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1564018658263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qcc_spider" />
+    <SUITE FILE_PATH="coverage/small_website$requests_html.coverage" NAME="requests_html Coverage Results" MODIFIED="1562835469887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/small_website$upqib.coverage" NAME="upqib Coverage Results" MODIFIED="1566284311424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qcc_spider" />
     <SUITE FILE_PATH="coverage/small_website$wl_114.coverage" NAME="wl_114 Coverage Results" MODIFIED="1560735208890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/city_category/wl_114" />
-    <SUITE FILE_PATH="coverage/small_website$100_zsw.coverage" NAME="100_zsw Coverage Results" MODIFIED="1560766593922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/100zs" />
+    <SUITE FILE_PATH="coverage/small_website$55.coverage" NAME="55 Coverage Results" MODIFIED="1566200136111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/small_website$qcc.coverage" NAME="qcc Coverage Results" MODIFIED="1565925013150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qcc_spider" />
+    <SUITE FILE_PATH="coverage/small_website$ip.coverage" NAME="ip Coverage Results" MODIFIED="1566198410316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/small_website$tt.coverage" NAME="tt Coverage Results" MODIFIED="1561964544223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/small_website$run.coverage" NAME="run Coverage Results" MODIFIED="1562568430414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qcc" />
+    <SUITE FILE_PATH="coverage/small_website$100_zsw.coverage" NAME="100_zsw Coverage Results" MODIFIED="1560766593922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/100zs" />
     <SUITE FILE_PATH="coverage/small_website$sqw.coverage" NAME="sqw Coverage Results" MODIFIED="1559727146436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/sqw" />
-    <SUITE FILE_PATH="coverage/small_website$jrw.coverage" NAME="jrw Coverage Results" MODIFIED="1560147316021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/jyw" />
+    <SUITE FILE_PATH="coverage/small_website$run.coverage" NAME="run Coverage Results" MODIFIED="1562568430414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qcc" />
     <SUITE FILE_PATH="coverage/small_website$test.coverage" NAME="test Coverage Results" MODIFIED="1561103264080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/small_website$chromium_downloader.coverage" NAME="chromium_downloader Coverage Results" MODIFIED="1562836461380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/software/python/Lib/site-packages/pyppeteer" />
+    <SUITE FILE_PATH="coverage/small_website$chromium_downloader.coverage" NAME="chromium_downloader Coverage Results" MODIFIED="1562836461380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../software/python/Lib/site-packages/pyppeteer" />
+    <SUITE FILE_PATH="coverage/small_website$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1566288322104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qcc_spider" />
+    <SUITE FILE_PATH="coverage/small_website$jrw.coverage" NAME="jrw Coverage Results" MODIFIED="1560147316021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/jyw" />
+    <SUITE FILE_PATH="coverage/small_website$transAddr.coverage" NAME="transAddr Coverage Results" MODIFIED="1559787369909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/city_category" />
+    <SUITE FILE_PATH="coverage/small_website$requests_ht.coverage" NAME="requests_ht Coverage Results" MODIFIED="1562837261492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -44,80 +47,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qcc_spider/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="221">
+              <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
               <folding>
                 <element signature="e#14#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/qcc_spider/upqib.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="156" column="14" selection-start-line="156" selection-start-column="14" selection-end-line="156" selection-end-column="131" />
-              <folding>
-                <element signature="e#20#29#0" expanded="true" />
-                <element signature="e#3256#4185#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/a.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-              <folding>
-                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qcc_spider/common.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-              <folding>
-                <element signature="e#76#85#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1560">
-              <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/software/python/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="32" column="38" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qcc_spider/feach.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114">
-              <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-              <folding>
-                <element signature="e#133#144#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,34 +59,131 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qcc_spider/qcc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="200" column="68" selection-start-line="200" selection-end-line="201" />
+            <state relative-caret-position="287">
+              <caret line="1220" column="101" lean-forward="true" selection-start-line="1202" selection-start-column="23" selection-end-line="1220" selection-end-column="101" />
               <folding>
                 <element signature="e#22#31#0" expanded="true" />
-                <element signature="e#821#1009#0" />
-                <element signature="e#1060#1688#0" />
-                <element signature="e#1747#2323#0" />
-                <element signature="e#2383#2625#0" />
-                <element signature="e#9640#17557#0" />
-                <element signature="e#17642#25446#0" />
-                <element signature="e#22175#22639#0" />
-                <element signature="e#22866#23342#0" />
-                <element signature="e#23537#24000#0" />
-                <element signature="e#24191#24867#0" />
-                <element signature="e#25533#28765#0" />
-                <element signature="e#28852#44557#0" />
-                <element signature="e#29286#31683#0" />
-                <element signature="e#31923#32434#0" />
-                <element signature="e#32736#33883#0" />
-                <element signature="e#34142#34502#0" />
-                <element signature="e#36184#36795#0" />
-                <element signature="e#37059#37663#0" />
-                <element signature="e#38819#39762#0" />
-                <element signature="e#40031#40615#0" />
-                <element signature="e#40813#41286#0" />
-                <element signature="e#41496#42338#0" />
-                <element signature="e#42550#43501#0" />
-                <element signature="e#44654#50526#0" />
+                <element signature="e#20027#27831#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qcc_spider/upqib.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="1116" column="28" lean-forward="true" selection-start-line="1116" selection-start-column="28" selection-end-line="1116" selection-end-column="28" />
+              <folding>
+                <element signature="e#22#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider/mongo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qcc_spider/mongo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qcc_spider/feach.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+              <folding>
+                <element signature="e#133#144#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/a.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="366" column="48" selection-start-line="366" selection-start-column="44" selection-end-line="366" selection-end-column="48" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#341#347#0" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#582#588#0" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#745#751#0" expanded="true" />
+                <element signature="n#style#0;n#a#3;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#905#911#0" expanded="true" />
+                <element signature="n#style#0;n#a#4;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#1144#1150#0" expanded="true" />
+                <element signature="n#style#0;n#a#5;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#1386#1392#0" expanded="true" />
+                <element signature="n#style#0;n#a#6;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#1626#1632#0" expanded="true" />
+                <element signature="n#style#0;n#a#7;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#1786#1792#0" expanded="true" />
+                <element signature="n#style#0;n#a#8;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#2022#2028#0" expanded="true" />
+                <element signature="n#style#0;n#a#9;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#2257#2263#0" expanded="true" />
+                <element signature="n#style#0;n#a#10;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#2419#2425#0" expanded="true" />
+                <element signature="n#style#0;n#a#11;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#2581#2587#0" expanded="true" />
+                <element signature="n#style#0;n#a#12;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#2743#2749#0" expanded="true" />
+                <element signature="n#style#0;n#a#13;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#2905#2911#0" expanded="true" />
+                <element signature="n#style#0;n#a#14;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#3067#3073#0" expanded="true" />
+                <element signature="n#style#0;n#a#15;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#3229#3235#0" expanded="true" />
+                <element signature="n#style#0;n#a#16;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#3390#3396#0" expanded="true" />
+                <element signature="n#style#0;n#a#17;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#3550#3556#0" expanded="true" />
+                <element signature="n#style#0;n#a#18;n#div#0;n#section#0;n#!!top" expanded="true" />
+                <element signature="e#3712#3718#0" expanded="true" />
+                <element signature="e#5313#5319#0" expanded="true" />
+                <element signature="e#5319#5325#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#td#1;n#tr#2;n#table#0;n#section#5;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#td#4;n#tr#2;n#table#0;n#section#5;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#section#6;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#section#6;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#section#6;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#section#7;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#section#7;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#8;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#section#9;n#!!top" expanded="true" />
+                <element signature="e#20331#20338#1" expanded="true" />
+                <element signature="e#20855#20862#1" expanded="true" />
+                <element signature="e#21478#21485#1" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+                <element signature="e#21985#21992#1" expanded="true" />
+                <element signature="e#22508#22515#1" expanded="true" />
+                <element signature="e#23002#23009#1" expanded="true" />
+                <element signature="e#23499#23506#1" expanded="true" />
+                <element signature="e#23991#23998#1" expanded="true" />
+                <element signature="e#24445#24452#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,8 +194,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -187,6 +217,19 @@
       <find>行政许可 [信用中国]</find>
       <find>licenslist</find>
       <find>zg_de1d1a35bfa24ce29bbf2c7eb17e6c4f</find>
+      <find>branchInfo</find>
+      <find>北京浩沃特矿业技术有限公司</find>
+      <find>content</find>
+      <find>200万元人民币</find>
+      <find>h1</find>
+      <find>&lt;h1&gt;</find>
+      <find>电话</find>
+      <find>地址</find>
+      <find>企业地址</find>
+      <find>1天</find>
+      <find>开业</find>
+      <find>公告研报</find>
+      <find>Site_lt</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -197,7 +240,6 @@
         <option value="$PROJECT_DIR$/READ.md" />
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/jyw/jrw.py" />
-        <option value="$PROJECT_DIR$/wenshu.html" />
         <option value="$PROJECT_DIR$/spider/jyw/jrw.py" />
         <option value="$PROJECT_DIR$/city_category/setting.py" />
         <option value="$PROJECT_DIR$/spider/mongo.py" />
@@ -218,26 +260,29 @@
         <option value="$PROJECT_DIR$/qcc/REMD.md" />
         <option value="$PROJECT_DIR$/qcc/run.py" />
         <option value="$PROJECT_DIR$/qcc/qcc.py" />
-        <option value="$PROJECT_DIR$/qcc_spider/a.html" />
         <option value="$PROJECT_DIR$/requests_html.py" />
-        <option value="D:/software/python/Lib/site-packages/pyppeteer/chromium_downloader.py" />
+        <option value="$PROJECT_DIR$/../software/python/Lib/site-packages/pyppeteer/chromium_downloader.py" />
         <option value="$PROJECT_DIR$/requests_ht.py" />
         <option value="$PROJECT_DIR$/spider/snw/__init__.py" />
         <option value="$PROJECT_DIR$/hhhh.html" />
+        <option value="$PROJECT_DIR$/tt.py" />
         <option value="$PROJECT_DIR$/qcc_spider/qcc.py" />
         <option value="$PROJECT_DIR$/qcc_spider/run.py" />
-        <option value="$PROJECT_DIR$/a.html" />
+        <option value="$PROJECT_DIR$/wenshu.html" />
+        <option value="$PROJECT_DIR$/qcc_spider/a.html" />
+        <option value="$PROJECT_DIR$/ip.py" />
+        <option value="$PROJECT_DIR$/55.py" />
         <option value="$PROJECT_DIR$/qcc_spider/feach.py" />
-        <option value="$PROJECT_DIR$/tt.py" />
+        <option value="$PROJECT_DIR$/a.html" />
         <option value="$PROJECT_DIR$/qcc_spider/upqib.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="306" />
-    <option name="y" value="36" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="615" />
+    <option name="y" value="2" />
     <option name="width" value="1265" />
-    <option name="height" value="1024" />
+    <option name="height" value="1011" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -266,7 +311,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fangtian-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -302,52 +347,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tt">
-    <configuration name="chromium_downloader" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="small_website" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="D:/software/python/Lib/site-packages/pyppeteer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:/software/python/Lib/site-packages/pyppeteer/chromium_downloader.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+  <component name="RunManager" selected="Python.run (1)">
+    <configuration name="a.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/small_website/a.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="qcc" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="small_website" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qcc_spider" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qcc_spider/qcc.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="requests_ht" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="55" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="small_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -360,7 +364,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requests_ht.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/55.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ip" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="small_website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ip.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -391,7 +417,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="upqib" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="small_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -399,12 +425,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qcc_spider" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qcc_spider/upqib.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -415,18 +441,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.run (1)" />
-      <item itemvalue="Python.requests_ht" />
-      <item itemvalue="Python.chromium_downloader" />
-      <item itemvalue="Python.qcc" />
-      <item itemvalue="Python.tt" />
+      <item itemvalue="Python.upqib" />
+      <item itemvalue="Python.ip" />
+      <item itemvalue="Python.55" />
+      <item itemvalue="JavaScript Debug.a.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tt" />
         <item itemvalue="Python.run (1)" />
-        <item itemvalue="Python.qcc" />
-        <item itemvalue="Python.requests_ht" />
-        <item itemvalue="Python.chromium_downloader" />
+        <item itemvalue="Python.upqib" />
+        <item itemvalue="JavaScript Debug.a.html" />
+        <item itemvalue="Python.55" />
+        <item itemvalue="Python.ip" />
       </list>
     </recent_temporary>
   </component>
@@ -477,31 +503,46 @@
       <workItem from="1564623451115" duration="31627000" />
       <workItem from="1564716286314" duration="757000" />
       <workItem from="1564724864536" duration="5210000" />
+      <workItem from="1565080972139" duration="4245000" />
+      <workItem from="1565142954638" duration="14246000" />
+      <workItem from="1565314183145" duration="1799000" />
+      <workItem from="1565571559679" duration="599000" />
+      <workItem from="1565591118623" duration="14092000" />
+      <workItem from="1566179386340" duration="30876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="418013000" />
+    <option name="totallyTimeSpent" value="483870000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.092750534" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.114072494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3637375" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.88351256" weight="0.12235817" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.069296375" side_tool="true" weight="0.44874716" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5228031" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36299765" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.069296375" side_tool="true" weight="0.44874716" />
+      <window_info active="true" anchor="bottom" id="Debug" order="9" sideWeight="0.88351256" visible="true" weight="0.4349277" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2802768" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.3298731" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -688,48 +729,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/qcc_spider/qcc.py</url>
-          <line>532</line>
-          <option name="timeStamp" value="220" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/qcc_spider/qcc.py</url>
-          <line>519</line>
-          <option name="timeStamp" value="222" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/qcc_spider/qcc.py</url>
-          <line>1011</line>
-          <option name="timeStamp" value="228" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/qcc_spider/qcc.py</url>
-          <line>580</line>
-          <option name="timeStamp" value="233" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/qcc_spider/qcc.py</url>
-          <line>595</line>
-          <option name="timeStamp" value="234" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/qcc_spider/qcc.py</url>
-          <line>609</line>
+          <line>674</line>
           <option name="timeStamp" value="235" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/qcc_spider/upqib.py</url>
-          <line>63</line>
-          <option name="timeStamp" value="260" />
+          <url>file://$PROJECT_DIR$/qcc_spider/qcc.py</url>
+          <line>1162</line>
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qcc_spider/qcc.py</url>
+          <line>1143</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qcc_spider/qcc.py</url>
+          <line>1175</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qcc_spider/qcc.py</url>
+          <line>1195</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qcc_spider/qcc.py</url>
+          <line>1221</line>
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ip.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="368" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/qcc_spider/upqib.py</url>
-          <line>195</line>
-          <option name="timeStamp" value="264" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/qcc_spider/upqib.py</url>
-          <line>179</line>
-          <option name="timeStamp" value="269" />
+          <line>1202</line>
+          <option name="timeStamp" value="421" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/../ywl/caipanwenshu-master/wenshu_task/pako.js</url>
@@ -744,54 +780,8 @@
     <SUITE FILE_PATH="coverage/small_website$tt.coverage" NAME="tt Coverage Results" MODIFIED="1564716443296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/city_category/使用说明.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="5" column="43" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="43" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/python/Lib/site-packages/pymongo/helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="154" selection-start-line="154" selection-end-line="154" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city_category/setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/python/Lib/site-packages/redis/connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/python/Lib/site-packages/fake_useragent/fake.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3223">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/python/Lib/site-packages/fake_useragent/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#24#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../software/python/Lib/site-packages/fake_useragent/fake.py" />
+    <entry file="file://$PROJECT_DIR$/../software/python/Lib/site-packages/fake_useragent/settings.py" />
     <entry file="file://$PROJECT_DIR$/spider/jyw/jrw.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -812,13 +802,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/software/python/Lib/site-packages/redis/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50112">
-          <caret line="1880" column="8" selection-start-line="1880" selection-start-column="8" selection-end-line="1880" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../software/python/Lib/site-packages/redis/client.py" />
     <entry file="file://$PROJECT_DIR$/spider/READ.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -869,30 +853,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/software/python/Lib/site-packages/requests/cookies.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10611">
-          <caret line="398" selection-start-line="398" selection-end-line="398" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wenshu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="90" column="49" selection-start-line="90" selection-start-column="49" selection-end-line="90" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/python/Lib/logging/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="1063" column="11" lean-forward="true" selection-start-line="1063" selection-start-column="11" selection-end-line="1063" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qcc_spider/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../software/python/Lib/site-packages/requests/cookies.py" />
+    <entry file="file://$PROJECT_DIR$/../software/python/Lib/logging/__init__.py" />
     <entry file="file://$PROJECT_DIR$/spider/yfsb/yfsb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -903,47 +865,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/city_category/cpca/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3456">
-          <caret line="129" column="37" selection-start-line="129" selection-start-column="37" selection-end-line="129" selection-end-column="37" />
-          <folding>
-            <element signature="e#40#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/python/Lib/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="265" column="69" selection-start-line="265" selection-start-column="69" selection-end-line="265" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qcc_spider/a.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="1917" selection-start-line="1917" selection-end-line="1917" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#form#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#form#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#4;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/python/Lib/site-packages/pyppeteer/chromium_downloader.py" />
+    <entry file="file://$PROJECT_DIR$/../software/python/Lib/random.py" />
+    <entry file="file://$PROJECT_DIR$/../software/python/Lib/site-packages/pyppeteer/chromium_downloader.py" />
     <entry file="file://$PROJECT_DIR$/spider/snw/snw.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
@@ -991,24 +914,9 @@
     <entry file="file://$PROJECT_DIR$/spider/snw/a.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://D:/software/python/Lib/site-packages/pymongo/mongo_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
-          <folding>
-            <element signature="e#1247#1264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/python/Lib/site-packages/requests_html.py" />
-    <entry file="file://D:/software/python/Lib/site-packages/pymongo/periodic_executor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../software/python/Lib/site-packages/pymongo/mongo_client.py" />
+    <entry file="file://$PROJECT_DIR$/../software/python/Lib/site-packages/requests_html.py" />
+    <entry file="file://$PROJECT_DIR$/../software/python/Lib/site-packages/pymongo/periodic_executor.py" />
     <entry file="file://$PROJECT_DIR$/hhhh.html" />
     <entry file="file://$PROJECT_DIR$/spider/common.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1023,16 +931,6 @@
     <entry file="file://$USER_HOME$/Desktop/reposever/rules/rules_logic.py" />
     <entry file="file://$USER_HOME$/Desktop/reposever/rules/rules_test.py" />
     <entry file="file://$USER_HOME$/Desktop/reposever/main.py" />
-    <entry file="file://$PROJECT_DIR$/spider/mongo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qcc_spider/REMD.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1048,59 +946,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qcc_spider/mongo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/python/Lib/site-packages/pymongo/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qcc_spider/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="e#14#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qcc_spider/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#76#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/python/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../software/python/Lib/site-packages/pymongo/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../software/python/Lib/site-packages/selenium/webdriver/chrome/webdriver.py" />
     <entry file="file://$PROJECT_DIR$/tt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
+        <state relative-caret-position="1323">
           <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
@@ -1108,57 +958,346 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/qcc_spider/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city_category/cpca/resources/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city_category/cpca/structures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city_category/cpca/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#40#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wenshu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#a#0;n#div#1;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#2;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#div#2;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#div#1;n#div#2;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qcc_spider/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#76#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qcc_spider/a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="227" column="48" lean-forward="true" selection-start-line="226" selection-end-line="227" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#form#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#form#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#form#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#8;n#ul#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#5;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#6;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#7;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#8;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#9;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#10;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#11;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#12;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#13;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#dl#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#dl#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#dl#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#dl#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#dl#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#dl#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#3;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#dl#3;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#dl#3;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#dl#4;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#dl#4;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#5;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#dl#5;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#dl#5;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dl#6;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#dl#6;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#dl#6;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#dl#7;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#span#0;n#dd#0;n#dl#7;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#span#0;n#dd#1;n#dl#7;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#span#0;n#dd#2;n#dl#7;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#section#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#49611#49617#0" expanded="true" />
+            <element signature="e#49617#49623#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#section#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#span#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#69211#69215#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#1;n#div#0;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#2;n#div#0;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#a#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#1;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#a#1;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#2;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#a#2;n#div#1;n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#81280#81284#0" expanded="true" />
+            <element signature="e#81284#81288#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#98310#98316#0" expanded="true" />
+            <element signature="e#98354#98360#0" expanded="true" />
+            <element signature="e#98489#98495#0" expanded="true" />
+            <element signature="e#98682#98688#0" expanded="true" />
+            <element signature="e#98688#98694#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#div#1;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#div#1;n#div#0;n#div#0;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#2;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#3;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#3;n#div#1;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#108461#108465#0" expanded="true" />
+            <element signature="n#style#0;n#input#4;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#111790#111794#0" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#4;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#12;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#14;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#15;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/55.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="95" selection-start-line="95" selection-end-line="101" selection-end-column="44" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="366" column="48" selection-start-line="366" selection-start-column="44" selection-end-line="366" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#341#347#0" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#582#588#0" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#745#751#0" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#905#911#0" expanded="true" />
+            <element signature="n#style#0;n#a#4;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#1144#1150#0" expanded="true" />
+            <element signature="n#style#0;n#a#5;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#1386#1392#0" expanded="true" />
+            <element signature="n#style#0;n#a#6;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#1626#1632#0" expanded="true" />
+            <element signature="n#style#0;n#a#7;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#1786#1792#0" expanded="true" />
+            <element signature="n#style#0;n#a#8;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#2022#2028#0" expanded="true" />
+            <element signature="n#style#0;n#a#9;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#2257#2263#0" expanded="true" />
+            <element signature="n#style#0;n#a#10;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#2419#2425#0" expanded="true" />
+            <element signature="n#style#0;n#a#11;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#2581#2587#0" expanded="true" />
+            <element signature="n#style#0;n#a#12;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#2743#2749#0" expanded="true" />
+            <element signature="n#style#0;n#a#13;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#2905#2911#0" expanded="true" />
+            <element signature="n#style#0;n#a#14;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#3067#3073#0" expanded="true" />
+            <element signature="n#style#0;n#a#15;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#3229#3235#0" expanded="true" />
+            <element signature="n#style#0;n#a#16;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#3390#3396#0" expanded="true" />
+            <element signature="n#style#0;n#a#17;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#3550#3556#0" expanded="true" />
+            <element signature="n#style#0;n#a#18;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#3712#3718#0" expanded="true" />
+            <element signature="e#5313#5319#0" expanded="true" />
+            <element signature="e#5319#5325#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#1;n#tr#2;n#table#0;n#section#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#4;n#tr#2;n#table#0;n#section#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#section#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#section#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#section#7;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#section#7;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#8;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#9;n#!!top" expanded="true" />
+            <element signature="e#20331#20338#1" expanded="true" />
+            <element signature="e#20855#20862#1" expanded="true" />
+            <element signature="e#21478#21485#1" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#6;n#!!top" expanded="true" />
+            <element signature="e#21985#21992#1" expanded="true" />
+            <element signature="e#22508#22515#1" expanded="true" />
+            <element signature="e#23002#23009#1" expanded="true" />
+            <element signature="e#23499#23506#1" expanded="true" />
+            <element signature="e#23991#23998#1" expanded="true" />
+            <element signature="e#24445#24452#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/qcc_spider/qcc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="200" column="68" selection-start-line="200" selection-end-line="201" />
+        <state relative-caret-position="287">
+          <caret line="1220" column="101" lean-forward="true" selection-start-line="1202" selection-start-column="23" selection-end-line="1220" selection-end-column="101" />
           <folding>
             <element signature="e#22#31#0" expanded="true" />
-            <element signature="e#821#1009#0" />
-            <element signature="e#1060#1688#0" />
-            <element signature="e#1747#2323#0" />
-            <element signature="e#2383#2625#0" />
-            <element signature="e#9640#17557#0" />
-            <element signature="e#17642#25446#0" />
-            <element signature="e#22175#22639#0" />
-            <element signature="e#22866#23342#0" />
-            <element signature="e#23537#24000#0" />
-            <element signature="e#24191#24867#0" />
-            <element signature="e#25533#28765#0" />
-            <element signature="e#28852#44557#0" />
-            <element signature="e#29286#31683#0" />
-            <element signature="e#31923#32434#0" />
-            <element signature="e#32736#33883#0" />
-            <element signature="e#34142#34502#0" />
-            <element signature="e#36184#36795#0" />
-            <element signature="e#37059#37663#0" />
-            <element signature="e#38819#39762#0" />
-            <element signature="e#40031#40615#0" />
-            <element signature="e#40813#41286#0" />
-            <element signature="e#41496#42338#0" />
-            <element signature="e#42550#43501#0" />
-            <element signature="e#44654#50526#0" />
+            <element signature="e#20027#27831#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/mongo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qcc_spider/feach.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        <state relative-caret-position="24">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding>
             <element signature="e#133#144#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/qcc_spider/mongo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qcc_spider/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding>
+            <element signature="e#14#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/qcc_spider/upqib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="156" column="14" selection-start-line="156" selection-start-column="14" selection-end-line="156" selection-end-column="131" />
+        <state relative-caret-position="304">
+          <caret line="1116" column="28" lean-forward="true" selection-start-line="1116" selection-start-column="28" selection-end-line="1116" selection-end-column="28" />
           <folding>
-            <element signature="e#20#29#0" expanded="true" />
-            <element signature="e#3256#4185#0" />
+            <element signature="e#22#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
