@@ -78,7 +78,7 @@ Keras-Preprocessing==1.0.9
 kiwisolver==1.0.1
 kombu==3.0.37
 ldap3==2.5.1
-lxml==4.2.5
+lxml==4.6.3
 Markdown==3.1
 MarkupSafe==1.1.0
 matplotlib==3.0.1
