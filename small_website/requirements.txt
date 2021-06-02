@@ -184,7 +184,7 @@ typing-extensions==3.7.2
 tzlocal==2.0.0b1
 u-msgpack-python==2.5.1
 udunits2===2-2.2.27.6
-urllib3==1.24.1
+urllib3==1.26.5
 urwid==2.0.1
 vine==1.2.0
 virtualenv==16.4.3
